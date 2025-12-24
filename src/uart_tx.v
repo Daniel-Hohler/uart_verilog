@@ -34,4 +34,8 @@ module uart_tx (
             end
         end
     end
+<<<<<<< HEAD
 endmodule
+=======
+endmodule
+>>>>>>> 5cbdfcb0a240e15d70a0bdd8342630b65ca4e685
