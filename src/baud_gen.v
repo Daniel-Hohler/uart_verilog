@@ -4,7 +4,7 @@ module baud_gen (
     output reg baud_tick
 );
 
-    paramter DIV = 5208;
+    parameter DIV = 5208;
     reg [12:0] count;
 
     always @(posedge clk) begin
@@ -21,4 +21,4 @@ module baud_gen (
             baud_tick <= 0;
         end
     end
-end module
+endmodule
